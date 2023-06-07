@@ -16,7 +16,26 @@
   #so it is not optimal for next crop on the same field. 
   #and to grown up the goundnut in wageningen takes longer. 
 
+#crop 1: maize
+#crop 2: groundnut
 
-a <- (1402/1815)+(568/897)
-a
 
+
+#yield: width of crop 1 : 0.5 >0.6 for groundnut 
+
+w0.5 <- (1402/1815)+(568/897)
+W0.5
+w0.55 <- (1460/1815)+(523/897)
+w0.55
+w0.45 <- (1338/1815)+(612/897)
+w0.4 <- (1268/1815)+(654/897)
+w0.35 <- (1193/1815)+(695/897)
+
+w0.3 <- (1107/1815)+(732/897)
+
+w0.34 <- (1176/1815)+(702/897)
+w0.36 <- (1208/1815)+(687/897)
+w0.6 <- (1513/1815)+(477/897)
+
+
+#width of crop 1 (maize): by 35% on the field has best LER in Sevilla 
