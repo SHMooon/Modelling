@@ -10,7 +10,8 @@
 
 
 #explain the situation maize in wageningen: from 30 to 70 same yield 1125... 
-#however situation maize in wageningen: 29 -> 1126
+#however situation maize in wageningen: 29 -> 1126 and by 28 lessss :1112.5
+
 #what is the meaing of the range of the emergence date like in wageningen is huge range... 
 #in wageningen the ground nut will be yielded at feburary next year.
   #so it is not optimal for next crop on the same field. 
@@ -20,7 +21,7 @@
 #crop 2: groundnut
 
 
-
+#Sevilla
 #yield: width of crop 1 : 0.5 >0.6 for groundnut 
 
 w0.5 <- (1402/1815)+(568/897)
@@ -39,3 +40,10 @@ w0.6 <- (1513/1815)+(477/897)
 
 
 #width of crop 1 (maize): by 35% on the field has best LER in Sevilla 
+
+#Wageingen 
+#Maize emergence day:29 -> 1126
+#Groundnut: will be harvested next year?????????
+#groundnut: 90:138.37
+#95:138.4 &94,96 same
+#
