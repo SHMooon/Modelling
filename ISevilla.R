@@ -149,5 +149,7 @@ MaxIM99G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_
 MaxIG99G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99_90_W0_5$Yield2_per_sqm))
 
 
+# 17
+
 
 

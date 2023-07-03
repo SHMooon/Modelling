@@ -2,8 +2,58 @@
 
 #in Wageningen
 library(readr)
+
+# 1
 Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4 <- 
   read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.4.csv",
            sep=";")
 
-MaxIM29G95_0.4 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4$TotalYield_per_sqm))
+MaxIMW29G95_0.4 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4$Yield1_per_sqm))
+MaxIGW29G95_0.4 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4$Yield2_per_sqm))
+LER29_95_0.4 <- (MaxIMW29G95_0.4/1126)+(MaxIGW29G95_0.4/138)
+LER29_95_0.4
+
+
+# 2
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_36 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.36.csv",
+           sep=";")
+
+MaxIMW29G95_0.36 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_36$Yield1_per_sqm))
+MaxIGW29G95_0.36 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_36$Yield2_per_sqm))
+LER29_95_0.36 <- (MaxIMW29G95_0.36/1126)+(MaxIGW29G95_0.36/138)
+LER29_95_0.36
+
+
+
+# 3
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_5 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.5.csv",
+           sep=";")
+
+MaxIMW29G95_0.5 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_5$Yield1_per_sqm))
+MaxIGW29G95_0.5 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_5$Yield2_per_sqm))
+LER29_95_0.5 <- (MaxIMW29G95_0.5/1126)+(MaxIGW29G95_0.5/138)
+LER29_95_0.5
+
+
+
+# 4
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_25 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.25.csv",
+           sep=";")
+
+MaxIMW29G95_0.25 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_25$Yield1_per_sqm))
+MaxIGW29G95_0.25 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_25$Yield2_per_sqm))
+
+
+# 5
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_29 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.29.csv",
+           sep=";")
+
+MaxIMW29G95_0.29 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_29$Yield1_per_sqm))
+MaxIGW29G95_0.29 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_29$Yield2_per_sqm))
+
+
+
