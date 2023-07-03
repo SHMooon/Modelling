@@ -1,6 +1,7 @@
 ###find a max yield###
 
 #in Wageningen
+<<<<<<< HEAD
 library(readr)
 
 # 1
@@ -57,3 +58,9 @@ MaxIGW29G95_0.29 <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_d
 
 
 
+=======
+df1 <- read.csv("Path to the file1", header=T, sep=",")
+df2 <- read.csv("Path to the file2", header=T, sep=",")
+data <- rbind(df1,df2)
+max(data['temp'])
+>>>>>>> 633ac356cf6a2337ed5163d4c88e88b3c8c7f18f
