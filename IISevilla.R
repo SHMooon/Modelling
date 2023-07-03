@@ -510,9 +510,9 @@ LERIM99G90_0.5 <- print((MaxIM99G90_0.5M/1815)+(MaxIM99G90_0.5G/897))
 
 
 ###MaxLERISevilla###
-LERISevilla <- c(
-  MSWagenigen=c("LERIM10G10_0.1M", "LERIM10G10_0.2M", "LERIM10G10_0.3M", 
-                "LERIM10G10_0.4M","LERIM10G10_0.5M", "LERIM15G10_0.1M", 
+LERISevilla <- list("LERIM10G10_0.1M"=LERIM10G10_0.1M, "LERIM10G10_0.2M", 
+                    "LERIM10G10_0.3M", 
+                "LERIM10G10_0.4M","LERIM10G10_0.5M", "LERIM15G10_0.1M"=LERIM15G10_0.1M, 
                 "LERIM15G10_0.2M", "LERIM15G10_0.3M", "LERIM15G10_0.4M",
                 "LERIM15G10_0.5M", "LERIM15G15_0.1M", "LERIM15G15_0.2M",
                 "LERIM15G15_0.3M", "LERIM15G15_0.4M", "LERIM15G15_0.5M",
@@ -524,7 +524,7 @@ LERISevilla <- c(
                 "LERIM57G90_0.6", "LERIM57G90_0.9", "LERIM57G90_0.35",
                 "LERIM57G90_0.36", "LERIM57G90_0.45", "LERIM57G90_0.55",
                 "LERIM60G90_0.5", "LERIM67G90_0.5","LERIM99G90_0.5"
-  ))
+  )
 
 MaxLERISevilla <- print(max(MaxLERISevilla))
 
