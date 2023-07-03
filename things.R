@@ -67,10 +67,9 @@ ww0.3 <- (646/1126)+(93/138)
 WW0.25 <- (581/1126)+(100/138)
 ww0.29 <- (634/1126)+(94/138)
 WW0.31 <- (658/1126)+(91/138)
+wwO.40 <- (/1126)+(/138)
 
 #width of crop 1 (maize) by: 30% has the best LER in Wageningen
 
 
-#don't forget to save the graphs --> btw novi will save them haha
-  
 
