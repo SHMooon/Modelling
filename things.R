@@ -60,14 +60,21 @@ w0.6 <- (1513/1815)+(477/897)
 #
 
 
+
 #intercropping in wageningen (29 for maize and 95 for groundnut)
 ww0.35 <- (704/1126)+(85/138)
+
+ww0.4 <- (756/1126)+(78/138)
 WW0.5 <- (850/1126)+(64/138)
 ww0.3 <- (646/1126)+(93/138)
 WW0.25 <- (581/1126)+(100/138)
 ww0.29 <- (634/1126)+(94/138)
 WW0.31 <- (658/1126)+(91/138)
+<<<<<<< HEAD
 wwO.40 <- (/1126)+(/138)
+=======
+ww0.4
+>>>>>>> d427f6ee410b57ddc0bfa0ae82bbe8874ac8705f
 
 #width of crop 1 (maize) by: 30% has the best LER in Wageningen
 
