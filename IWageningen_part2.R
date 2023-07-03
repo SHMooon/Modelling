@@ -718,6 +718,96 @@ MaxIM25G30_0.5w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_
 LERIM25G30_0.5w <- print(MaxIM25G30_0.5w_M/1126)+(MaxIM25G30_0.5w_G/138)
 
 
+# MaxIM29G90_0.5w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_90_W0_5 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-90_W0.5.csv",
+           sep=";")
+
+MaxIM29G90_0.5w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_90_W0_5$Yield1_per_sqm))
+MaxIM29G90_0.5w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_90_W0_5$Yield2_per_sqm))
+LERIM29G90_0.5w <- print(MaxIM29G90_0.5w_M/1126)+(MaxIM29G90_0.5w_G/138)
+
+
+
+# MaxIM29G95_0.3w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_3 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.3.csv",
+           sep=";")
+
+MaxIM29G95_0.3w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_3$Yield1_per_sqm))
+MaxIM29G95_0.3w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_3$Yield2_per_sqm))
+LERIM29G95_0.3w <- print(MaxIM29G95_0.3w_M/1126)+(MaxIM29G95_0.3w_G/138)
+
+
+# MaxIM29G95_0.4w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.4.csv",
+           sep=";")
+
+MaxIM29G95_0.4w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4$Yield1_per_sqm))
+MaxIM29G95_0.4w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_4$Yield2_per_sqm))
+LERIM29G95_0.4w <- print(MaxIM29G95_0.4w_M/1126)+(MaxIM29G95_0.4w_G/138)
+
+
+# MaxIM29G95_0.5w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_5 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.5.csv",
+           sep=";")
+
+MaxIM29G95_0.5w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_5$Yield1_per_sqm))
+MaxIM29G95_0.5w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_5$Yield2_per_sqm))
+LERIM29G95_0.5w <- print(MaxIM29G95_0.5w_M/1126)+(MaxIM29G95_0.5w_G/138)
+
+
+# MaxIM29G95_0.25w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_25 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.25.csv",
+           sep=";")
+
+MaxIM29G95_0.25w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_25$Yield1_per_sqm))
+MaxIM29G95_0.25w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_25$Yield2_per_sqm))
+LERIM29G95_0.25w <- print(MaxIM29G95_0.25w_M/1126)+(MaxIM29G95_0.25w_G/138)
+
+
+# MaxIM29G95_0.29w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_29 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.29.csv",
+           sep=";")
+
+MaxIM29G95_0.29w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_29$Yield1_per_sqm))
+MaxIM29G95_0.29w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_29$Yield2_per_sqm))
+LERIM29G95_0.29w <- print(MaxIM29G95_0.29w_M/1126)+(MaxIM29G95_0.29w_G/138)
+
+
+# MaxIM29G95_0.31w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_31 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.31.csv",
+           sep=";")
+
+MaxIM29G95_0.31w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_31$Yield1_per_sqm))
+MaxIM29G95_0.31w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_31$Yield2_per_sqm))
+LERIM29G95_0.31w <- print(MaxIM29G95_0.31w_M/1126)+(MaxIM29G95_0.31w_G/138)
+
+
+# MaxIM29G95_0.35w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_35 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.35.csv",
+           sep=";")
+
+MaxIM29G95_0.35w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_35$Yield1_per_sqm))
+MaxIM29G95_0.35w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_35$Yield2_per_sqm))
+LERIM29G95_0.35w <- print(MaxIM29G95_0.35w_M/1126)+(MaxIM29G95_0.35w_G/138)
+
+
+# MaxIM29G95_0.36w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_36 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29-95_W0.36.csv",
+           sep=";")
+
+MaxIM29G95_0.36w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_36$Yield1_per_sqm))
+MaxIM29G95_0.36w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start29_95_W0_36$Yield2_per_sqm))
+LERIM29G95_0.36w <- print(MaxIM29G95_0.36w_M/1126)+(MaxIM29G95_0.36w_G/138)
+
 
 
 
@@ -747,7 +837,10 @@ LERIWageningen <- c(
                 "LERIM25G25_0.1w", "LERIM25G25_0.2w", "LERIM25G25_0.3w",
                 "LERIM25G25_0.4w", "LERIM25G25_0.5w", "LERIM25G30_0.1w",
                 "LERIM25G30_0.2w", "LERIM25G30_0.3w", "LERIM25G30_0.4w",
-                "LERIM25G30_0.5w", ""
+                "LERIM25G30_0.5w", "LERIM29G90_0.5w", "LERIM29G95_0.3w",
+                "LERIM29G95_0.4w", "LERIM29G95_0.5w", "LERIM29G95_0.25w",
+                "LERIM29G95_0.29w", "LERIM29G95_0.31w", "LERIM29G95_0.35w",
+                "LERIM29G95_0.36w"
                 
   ))
 
