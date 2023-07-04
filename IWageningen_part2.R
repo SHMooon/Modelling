@@ -1162,7 +1162,7 @@ LERIWageningen <-
 do.call(pmax, LERIWageningen)
 
 
+a <- (1:94)
 
-MaxLERIWageningen <- print(LERIWageningen)
-
+plot(LERIWageningen, a)
 
