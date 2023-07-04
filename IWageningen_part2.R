@@ -1104,6 +1104,28 @@ MaxIM30G35_0.5w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_
 LERIM30G35_0.5w <- print(MaxIM30G35_0.5w_M/Max30w_M)+(MaxIM30G35_0.5w_G/Max35w_G)
 
 
+# MaxIM10G90_0.3w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10_90_W0_3 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10-90_W0.3.csv",
+           sep=";")
+
+MaxIM10G90_0.3w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10_90_W0_3$Yield1_per_fraction))
+MaxIM10G90_0.3w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10_90_W0_3$Yield2_per_fraction))
+LERIM10G90_0.3w <- print(MaxIM10G90_0.3w_M/Max10w_M)+(MaxIM10G90_0.3w_G/Max90w_G)
+
+
+# MaxIM10G95_0.3w
+Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10_95_W0_3 <- 
+  read.csv("1Intercrop-Wageningen/Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10-95_W0.3.csv",
+           sep=";")
+
+MaxIM10G95_0.3w_M <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10_95_W0_3$Yield1_per_fraction))
+MaxIM10G95_0.3w_G <- print(max(Lintul5_Intercropping_wageningen_maize_groundnut_daily_Start10_95_W0_3$Yield2_per_fraction))
+LERIM10G95_0.3w <- print(MaxIM10G95_0.3w_M/Max10w_M)+(MaxIM10G95_0.3w_G/Max95w_G)
+
+
+
+
 
 
 
@@ -1155,7 +1177,8 @@ LERIWageningen <-
         "LERIM30G30_0.3w"=LERIM30G30_0.3w, "LERIM30G30_0.4w"=LERIM30G30_0.4w, 
         "LERIM30G30_0.5w"=LERIM30G30_0.5w, "LERIM30G35_0.1w"=LERIM30G35_0.1w,
         "LERIM30G35_0.2w"=LERIM30G35_0.2w, "LERIM30G35_0.3w"=LERIM30G35_0.3w, 
-        "LERIM30G35_0.4w"=LERIM30G35_0.4w,  "LERIM30G35_0.5w"=LERIM30G35_0.5w 
+        "LERIM30G35_0.4w"=LERIM30G35_0.4w,  "LERIM30G35_0.5w"=LERIM30G35_0.5w,
+        "LERIM10G90_0.3w"=LERIM10G90_0.3w, "LERIM10G95_0.3w"=LERIM10G95_0.3w
   )
 
 
