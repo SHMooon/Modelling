@@ -1476,4 +1476,10 @@ LERSevilla <- list("LERIM10G10_0.1M"=LERIM10G10_0.1M, "LERIM10G10_0.2M"=LERIM10G
                    "LERIM99G90_0.5"=LERIM99G90_0.5
                    )
 
+do.call(pmax, LERSevilla)
+
+
+Number <- (1:103)
+
+plot(LERSevilla, Number)
 
