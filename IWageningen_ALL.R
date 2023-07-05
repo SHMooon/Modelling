@@ -2249,9 +2249,9 @@ do.call(pmax, LERIWageningen)
 
 
 
-a <- (1:175)
+IWageningen <- (1:175)
 
-plot(LERIWageningen, a)
+plot(LERIWageningen, IWageningen)
 
 
 
@@ -2465,6 +2465,126 @@ do.call(pmax, MAXIGWageningen)
 a <- (1:175)
 
 plot(MAXIGWageningen, a)
+
+
+
+
+
+
+# data frame LERIWageningen
+
+Emergence_day <- c(1:175)
+LERIWageningen <- c("LERIM10G10_0.1w", "LERIM10G10_0.2w", "LERIM10G10_0.3w",
+                    "LERIM10G10_0.4w", "LERIM10G10_0.5w", "LERIM_0.1w",
+                    "LERIM10G15_0.2w", "LERIM10G15_0.3w", 
+                    "LERIM10G15_0.4w", "LERIM10G15_0.5w", 
+                    "LERIM10G50_0.1w", "LERIM10G50_0.2w",
+                    "LERIM10G50_0.3w", "LERIM10G50_0.4w", 
+                    "LERIM10G50_0.5w", "LERIM15G10_0.1w", 
+                    "LERIM15G10_0.2w", "LERIM15G10_0.3w",
+                    "LERIM15G10_0.4w", "LERIM15G10_0.5w", 
+                    "LERIM15G15_0.1w", "LERIM15G15_0.2w", 
+                    "LERIM15G15_0.3w", "LERIM15G15_0.4w",
+                    "LERIM15G15_0.5w", "LERIM15G20_0.1w", 
+                    "LERIM15G20_0.2w", "LERIM15G20_0.3w", 
+                    "LERIM15G20_0.4w", "LERIM15G20_0.5w",
+                    "LERIM15G50_0.1w", "LERIM15G50_0.2w", 
+                    "LERIM15G50_0.3w", "LERIM15G50_0.4w", 
+                    "LERIM15G50_0.4w", "LERIM20G15_0.1w",
+                    "LERIM20G15_0.2w", "LERIM20G15_0.3w", 
+                    "LERIM20G15_0.4w", "LERIM20G15_0.5w", 
+                    "LERIM20G20_0.1w", "LERIM20G20_0.2w",
+                    "LERIM20G20_0.3w", "LERIM20G20_0.4w", 
+                    "LERIM20G20_0.5w", "LERIM20G25_0.1w", 
+                    "LERIM20G25_0.2w", "LERIM20G25_0.3w",
+                    "LERIM20G25_0.4w", "LERIM20G25_0.5w", 
+                    "LERIM20G50_0.1w", "LERIM20G50_0.2w", 
+                    "LERIM20G50_0.3w", "LERIM20G50_0.4w",
+                    "LERIM20G50_0.5w", "LERIM25G20_0.1w", 
+                    "LERIM25G20_0.2w", "LERIM25G20_0.3w", 
+                    "LERIM25G20_0.4w", "LERIM25G20_0.5w",
+                    "LERIM25G25_0.1w", "LERIM25G25_0.2w", 
+                    "LERIM25G25_0.3w", "LERIM25G25_0.4w", 
+                    "LERIM25G25_0.5w", "LERIM25G30_0.1w",
+                    "LERIM25G30_0.2w", "LERIM25G30_0.3w", 
+                    "LERIM25G30_0.4w", "LERIM25G30_0.5w", 
+                    "LERIM29G90_0.5w", "LERIM29G95_0.3w",
+                    "LERIM29G95_0.4w", "LERIM29G95_0.5w", 
+                    "LERIM29G95_0.25w", "LERIM29G95_0.29w", 
+                    "LERIM29G95_0.31w", "LERIM29G95_0.35w",
+                    "LERIM29G95_0.36w", "LERIM30G25_0.1w", 
+                    "LERIM30G25_0.2w", "LERIM30G25_0.3w", 
+                    "LERIM30G25_0.4w", "LERIM30G25_0.5w",
+                    "LERIM30G30_0.1w", "LERIM30G30_0.2w", 
+                    "LERIM30G30_0.3w", "LERIM30G30_0.4w", 
+                    "LERIM30G30_0.5w", "LERIM30G35_0.1w",
+                    "LERIM30G35_0.2w", "LERIM30G35_0.3w", 
+                    "LERIM30G35_0.4w",  "LERIM30G35_0.5w", 
+                    "LERIM50G10_0.2w", "LERIM50G10_0.3w", 
+                    "LERIM50G10_0.4w","LERIM50G1_0.5w", 
+                    "LERIM50G20_0.1w", "LERIM50G20_0.2w",
+                    "LERIM50G20_0.3w", "LERIM50G20_0.4w", 
+                    "LERIM50G20_0.5w", "LERIM50G30_0.1w", 
+                    "LERIM50G30_0.2w", "LERIM50G30_0.3w",
+                    "LERIM50G30_0.4w", "LERIM50G30_0.5w", 
+                    "LERIM50G45_0.1w", "LERIM50G45_0.2w",
+                    "LERIM50G45_0.3w", "LERIM50G45_0.4w",
+                    "LERIM50G45_0.5w", "LERIM50G50_0.1w",
+                    "LERIM50G50_0.2w", "LERIM50G50_0.3w",
+                    "LERIM50G50_0.4w", "LERIM50G50_0.5w",
+                    "LERIM50G60_0.1w", "LERIM50G60_0.2w",
+                    "LERIM50G60_0.3w ", "LERIM50G60_0.4w",
+                    "LERIM50G60_0.5w", "LERIM60G50_0.1w",
+                    "LERIM60G50_0.2w", "LERIM60G50_0.3w",
+                    "LERIM60G50_0.4w", "LERIM60G50_0.5w",
+                    "LERIM60G60_0.1w", "LERIM60G60_0.3w",
+                    "LERIM60G60_0.4w", "LERIM60G60_0.5w",
+                    "LERIMM30G50_0.1w", "LERIMM30G50_0.2w",
+                    "LERIM30G50_0.3w", "LERIM30G50_0.4w",
+                    "LERIM30G50_0.5w", "LERIMM35G30_0.1w",
+                    "LERIMM35G30_0.2w", "LERIM35G30_0.3w",
+                    "LERIM35G30_0.4w", "LERIM35G30_0.5w",
+                    "LERIMM35G35_0.1w", "LERIMM35G35_0.2w",
+                    "LERIM35G35_0.3w", "LERIM35G35_0.4w",
+                    "LERIM35G35_0.5w", "LERIMM35G40_0.1w",
+                    "LERIMM35G40_0.2w", "LERIM35G40_0.3w",
+                    "LERIM35G40_0.4w", "LERIM35G40_0.5w",
+                    "LERIMM40G40_0.1w","LERIMM40G40_0.2w",
+                    "LERIM40G40_0.3w", "LERIM40G40_0.4w",
+                    "LERIM40G40_0.5w","LERIMM40G45_0.1w",
+                    "LERIMM40G45_0.2w", "LERIM40G45_0.3w",
+                    "LERIM40G45_0.4w", "LERIM40G45_0.5w",
+                    "LERIMM40G60_0.1w", "LERIMM40G60_0.2w",
+                    "LERIM40G60_0.3w", "LERIM40G60_0.4w",
+                    "LERIM40G60_0.5w", "LERIMM45G40_0.1w",
+                    "LERIMM45G40_0.2w", "LERIM45G40_0.3w",
+                    "LERIMM45G45_0.1w", "LERIMM45G45_0.2w",
+                    "LERIM45G45_0.3w", "LERIM45G45_0.4w",
+                    "LERIM45G45_0.5w")
+
+
+
+data_frame_LERIW <- data.frame(Emergence_day, LERIWageningen)
+
+
+
+
+#correlation plot
+
+
+library(ggplot2)
+
+ggplot(data_frame_LERIW, aes(x=LERIWageningen, y=Emergence_day)) + 
+  geom_point(color="grey", size = 1) + 
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE, color="lightblue")
+
+cor.test(x=cars$speed, y=cars$dist, method = 'spearman')
+
+
+# Data generation
+library(ggplot2)
+
+set.seed(1)
 
 
 
