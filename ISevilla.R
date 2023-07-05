@@ -8,9 +8,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_1 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10-10_W0.1.csv",
            sep=";")
 MaxIM10G10_0.1M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_1$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_1$Yield1_per_fraction))
 MaxIM10G10_0.1G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_1$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_1$Yield2_per_fraction))
 
 LERIM10G10_0.1M <- print((MaxIM10G10_0.1M/1815)+(MaxIM10G10_0.1G/897))
 
@@ -21,9 +21,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_2 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10-10_W0.2.csv",
            sep=";")
 MaxIM10G10_0.2M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_2$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_2$Yield1_per_fraction))
 MaxIM10G10_0.2G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_2$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_2$Yield2_per_fraction))
 
 LERIM10G10_0.2M <- print((MaxIM10G10_0.2M/1815)+(MaxIM10G10_0.2G/897))
 
@@ -34,9 +34,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_3 <-
            sep=";")
 
 MaxIM10G10_0.3M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_3$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_3$Yield1_per_fraction))
 MaxIM10G10_0.3G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_3$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_3$Yield2_per_fraction))
 
 LERIM10G10_0.3M <- print((MaxIM10G10_0.3M/1815)+(MaxIM10G10_0.3G/897))
 
@@ -47,9 +47,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_4 <-
            sep=";")
 
 MaxIM10G10_0.4M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_4$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_4$Yield1_per_fraction))
 MaxIM10G10_0.4G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_4$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_4$Yield2_per_fraction))
 
 LERIM10G10_0.4M <- print((MaxIM10G10_0.4M/1815)+(MaxIM10G10_0.4G/897))
 
@@ -59,9 +59,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_5 <-
            sep=";")
 
 MaxIM10G10_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_5$Yield1_per_fraction))
 MaxIM10G10_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start10_10_W0_5$Yield2_per_fraction))
 
 LERIM10G10_0.5M <- print((MaxIM10G10_0.5M/1815)+(MaxIM10G10_0.5G/897))
 
@@ -72,9 +72,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_1 <-
            sep=";")
 
 MaxIM15G10_0.1M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_1$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_1$Yield1_per_fraction))
 MaxIM15G10_0.1G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_1$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_1$Yield2_per_fraction))
 
 LERIM15G10_0.1M <- print((MaxIM15G10_0.1M/1815)+(MaxIM15G10_0.1G/897))
 
@@ -85,9 +85,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_2 <-
            sep=";")
 
 MaxIM15G10_0.2M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_2$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_2$Yield1_per_fraction))
 MaxIM15G10_0.2G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_2$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_2$Yield2_per_fraction))
 
 LERIM15G10_0.2M <- print((MaxIM15G10_0.2M/1815)+(MaxIM15G10_0.2G/897))
 
@@ -98,9 +98,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_3 <-
            sep=";")
 
 MaxIM15G10_0.3M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_3$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_3$Yield1_per_fraction))
 MaxIM15G10_0.3G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_3$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_3$Yield2_per_fraction))
 
 LERIM15G10_0.3M <- print((MaxIM15G10_0.3M/1815)+(MaxIM15G10_0.3G/897))
 
@@ -111,9 +111,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_4 <-
            sep=";")
 
 MaxIM15G10_0.4M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_4$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_4$Yield1_per_fraction))
 MaxIM15G10_0.4G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_4$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_4$Yield2_per_fraction))
 
 LERIM15G10_0.4M <- print((MaxIM15G10_0.4M/1815)+(MaxIM15G10_0.4G/897))
 
@@ -124,9 +124,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_5 <-
            sep=";")
 
 MaxIM15G10_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_5$Yield1_per_fraction))
 MaxIM15G10_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_10_W0_5$Yield2_per_fraction))
 
 LERIM15G10_0.5M <- print((MaxIM15G10_0.5M/1815)+(MaxIM15G10_0.5G/897))
 
@@ -137,9 +137,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_1 <-
            sep=";")
 
 MaxIM15G15_0.1M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_1$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_1$Yield1_per_fraction))
 MaxIM15G15_0.1G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_1$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_1$Yield2_per_fraction))
 
 LERIM15G15_0.1M <- print((MaxIM15G15_0.1M/1815)+(MaxIM15G15_0.1G/897))
 
@@ -150,9 +150,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_2 <-
            sep=";")
 
 MaxIM15G15_0.2M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_2$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_2$Yield1_per_fraction))
 MaxIM15G15_0.2G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_2$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_2$Yield2_per_fraction))
 
 LERIM15G15_0.2M <- print((MaxIM15G15_0.2M/1815)+(MaxIM15G15_0.2G/897))
 
@@ -163,9 +163,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_3 <-
            sep=";")
 
 MaxIM15G15_0.3M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_3$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_3$Yield1_per_fraction))
 MaxIM15G15_0.3G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_3$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_3$Yield2_per_fraction))
 
 LERIM15G15_0.3M <- print((MaxIM15G15_0.3M/1815)+(MaxIM15G15_0.3G/897))
 
@@ -176,9 +176,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_4 <-
            sep=";")
 
 MaxIM15G15_0.4M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_4$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_4$Yield1_per_fraction))
 MaxIM15G15_0.4G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_4$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_4$Yield2_per_fraction))
 
 LERIM15G15_0.4M <- print((MaxIM15G15_0.4M/1815)+(MaxIM15G15_0.4G/897))
 
@@ -188,9 +188,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_5 <-
            sep=";")
 
 MaxIM15G15_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_5$Yield1_per_fraction))
 MaxIM15G15_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start15_15_W0_5$Yield2_per_fraction))
 
 LERIM15G15_0.5M <- print((MaxIM15G15_0.5M/1815)+(MaxIM15G15_0.5G/897))
 
@@ -202,9 +202,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_1 <-
            sep=";")
 
 MaxIM20G20_0.1M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_1$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_1$Yield1_per_fraction))
 MaxIM20G20_0.1G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_1$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_1$Yield2_per_fraction))
 
 LERIM20G20_0.1M <- print((MaxIM20G20_0.1M/1815)+(MaxIM20G20_0.1G/897))
 
@@ -215,9 +215,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_2 <-
            sep=";")
 
 MaxIM20G20_0.2M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_2$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_2$Yield1_per_fraction))
 MaxIM20G20_0.2G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_2$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_2$Yield2_per_fraction))
 
 LERIM20G20_0.2M <- print((MaxIM20G20_0.2M/1815)+(MaxIM20G20_0.2G/897))
 
@@ -228,9 +228,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_3 <-
            sep=";")
 
 MaxIM20G20_0.3M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_3$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_3$Yield1_per_fraction))
 MaxIM20G20_0.3G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_3$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_3$Yield2_per_fraction))
 
 LERIM20G20_0.3M <- print((MaxIM20G20_0.3M/1815)+(MaxIM20G20_0.3G/897))
 
@@ -242,9 +242,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_4 <-
            sep=";")
 
 MaxIM20G20_0.4M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_4$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_4$Yield1_per_fraction))
 MaxIM20G20_0.4G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_4$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_4$Yield2_per_fraction))
 
 LERIM20G20_0.4M <- print((MaxIM20G20_0.4M/1815)+(MaxIM20G20_0.4G/897))
 
@@ -255,9 +255,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_5 <-
            sep=";")
 
 MaxIM20G20_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_5$Yield1_per_fraction))
 MaxIM20G20_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_20_W0_5$Yield2_per_fraction))
 
 LERIM20G20_0.5M <- print((MaxIM20G20_0.5M/1815)+(MaxIM20G20_0.5G/897))
 
@@ -269,9 +269,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1 <-
            sep=";")
 
 MaxIM20G25_0.1M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield1_per_fraction))
 MaxIM20G25_0.1G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield2_per_fraction))
 
 LERIM20G25_0.1M <- print((MaxIM20G25_0.1M/1815)+(MaxIM20G25_0.1G/897))
 
@@ -282,9 +282,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_2 <-
            sep=";")
 
 MaxIM20G25_0.2M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_2$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_2$Yield1_per_fraction))
 MaxIM20G25_0.2G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_2$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_2$Yield2_per_fraction))
 
 LERIM20G25_0.2M <- print((MaxIM20G25_0.2M/1815)+(MaxIM20G25_0.2G/897))
 
@@ -295,9 +295,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_3 <-
            sep=";")
 
 MaxIM20G25_0.3M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_3$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_3$Yield1_per_fraction))
 MaxIM20G25_0.3G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_3$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_3$Yield2_per_fraction))
 
 LERIM20G25_0.3M <- print((MaxIM20G25_0.3M/1815)+(MaxIM20G25_0.3G/897))
 
@@ -308,9 +308,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_4 <-
            sep=";")
 
 MaxIM20G25_0.4M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_4$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_4$Yield1_per_fraction))
 MaxIM20G25_0.4G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_4$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_4$Yield2_per_fraction))
 
 LERIM20G25_0.4M <- print((MaxIM20G25_0.4M/1815)+(MaxIM20G25_0.4G/897))
 
@@ -321,9 +321,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_5 <-
            sep=";")
 
 MaxIM20G25_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_5$Yield1_per_fraction))
 MaxIM20G25_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_5$Yield2_per_fraction))
 
 LERIM20G25_0.5M <- print((MaxIM20G25_0.5M/1815)+(MaxIM20G25_0.5G/897))
 
@@ -334,9 +334,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1 <-
            sep=";")
 
 MaxIM20G25_0.1M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield1_per_fraction))
 MaxIM20G25_0.1G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start20_25_W0_1$Yield2_per_fraction))
 
 LERIM20G25_0.1M <- print((MaxIM20G25_0.1M/1815)+(MaxIM20G25_0.1G/897))
 
@@ -348,9 +348,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_70_W0_5 <-
            sep=";")
 
 MaxIM57G70_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_70_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_70_W0_5$Yield1_per_fraction))
 MaxIM57G70_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_70_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_70_W0_5$Yield2_per_fraction))
 
 LERIM57G70_0.5 <- print((MaxIM57G70_0.5M/1815)+(MaxIM57G70_0.5G/897))
 
@@ -362,9 +362,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_80_W0_5 <-
            sep=";")
 
 MaxIM57G80_0.5M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_80_W0_5$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_80_W0_5$Yield1_per_fraction))
 MaxIM57G80_0.5G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_80_W0_5$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_80_W0_5$Yield2_per_fraction))
 
 LERIM57G80_0.5 <- print((MaxIM57G80_0.5M/1815)+(MaxIM57G80_0.5G/897))
 
@@ -375,9 +375,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_3 <-
            sep=";")
 
 MaxIM57G90_0.3M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_3$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_3$Yield1_per_fraction))
 MaxIM57G90_0.3G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_3$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_3$Yield2_per_fraction))
 
 LERIM57G90_0.3 <- print((MaxIM57G90_0.3M/1815)+(MaxIM57G90_0.3G/897))
 
@@ -388,9 +388,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_4 <-
            sep=";")
 
 MaxIM57G90_0.4M <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_4$Yield1_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_4$Yield1_per_fraction))
 MaxIM57G90_0.4G <- 
-  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_4$Yield2_per_sqm))
+  print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_4$Yield2_per_fraction))
 
 LERIM57G90_0.4 <- print((MaxIM57G90_0.4M/1815)+(MaxIM57G90_0.4G/897))
 
@@ -401,8 +401,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.5.csv",
            sep=";")
 
-MaxIM57G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield1_per_sqm))
-MaxIM57G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield2_per_sqm))
+MaxIM57G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield1_per_fraction))
+MaxIM57G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield2_per_fraction))
 
 LERIM57G90_0.5 <- print((MaxIM57G90_0.5/1815)+(MaxIM57G90_0.5/897))
 
@@ -412,8 +412,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.6.csv",
            sep=";")
 
-MaxIM57G90_0.6M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield1_per_sqm))
-MaxIGM7G90_0.6G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield2_per_sqm))
+MaxIM57G90_0.6M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield1_per_fraction))
+MaxIGM7G90_0.6G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield2_per_fraction))
 
 LERIM57G90_0.6 <- print((MaxIM57G90_0.6M/1815)+(MaxIGM7G90_0.6G/897))
 
@@ -423,8 +423,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_9 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.9.csv",
            sep=";")
 
-MaxIM57G90_0.9M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_9$Yield1_per_sqm))
-MaxIM57G90_0.9G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_9$Yield2_per_sqm))
+MaxIM57G90_0.9M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_9$Yield1_per_fraction))
+MaxIM57G90_0.9G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_9$Yield2_per_fraction))
 
 LERIM57G90_0.9 <- print((MaxIM57G90_0.9M/1815)+(MaxIM57G90_0.9G/897))
 
@@ -434,8 +434,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_35 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.35.csv",
            sep=";")
 
-MaxIM57G90_0.35M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_35$Yield1_per_sqm))
-MaxIM57G90_0.35G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_35$Yield2_per_sqm))
+MaxIM57G90_0.35M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_35$Yield1_per_fraction))
+MaxIM57G90_0.35G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_35$Yield2_per_fraction))
 
 LERIM57G90_0.35 <- print((MaxIM57G90_0.35M/1815)+(MaxIM57G90_0.35G/897))
 
@@ -445,8 +445,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_36 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.36.csv",
            sep=";")
 
-MaxIM57G90_0.36M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_36$Yield1_per_sqm))
-MaxIM57G90_0.36G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_36$Yield2_per_sqm))
+MaxIM57G90_0.36M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_36$Yield1_per_fraction))
+MaxIM57G90_0.36G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_36$Yield2_per_fraction))
 
 LERIM57G90_0.36 <- print((MaxIM57G90_0.36M/1815)+(MaxIM57G90_0.36G/897))
 
@@ -456,8 +456,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_45 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.45.csv",
            sep=";")
 
-MaxIM57G90_0.45M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_45$Yield1_per_sqm))
-MaxIM57G90_0.45G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_45$Yield2_per_sqm))
+MaxIM57G90_0.45M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_45$Yield1_per_fraction))
+MaxIM57G90_0.45G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_45$Yield2_per_fraction))
 
 LERIM57G90_0.45 <- print((MaxIM57G90_0.45M/1815)+(MaxIM57G90_0.45G/897))
 
@@ -468,8 +468,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_55 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.55.csv",
            sep=";")
 
-MaxIM57G90_0.55M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_55$Yield1_per_sqm))
-MaxIM57G90_0.55G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_55$Yield2_per_sqm))
+MaxIM57G90_0.55M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_55$Yield1_per_fraction))
+MaxIM57G90_0.55G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_55$Yield2_per_fraction))
 
 LERIM57G90_0.55 <- print((MaxIM57G90_0.55M/1815)+(MaxIM57G90_0.55G/897))
 
@@ -480,8 +480,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60-90_W0.5.csv",
            sep=";")
 
-MaxIM60G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield1_per_sqm))
-MaxIG60G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield2_per_sqm))
+MaxIM60G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield1_per_fraction))
+MaxIG60G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield2_per_fraction))
 
 LERIM60G90_0.5 <- print((MaxIM60G90_0.5M/1815)+(MaxIG60G90_0.5G/897))
 
@@ -490,8 +490,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start67_90_W0_5 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start67-90_W0.5.csv",
            sep=";")
 
-MaxIM67G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start67_90_W0_5$Yield1_per_sqm))
-MaxIM67G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start67_90_W0_5$Yield2_per_sqm))
+MaxIM67G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start67_90_W0_5$Yield1_per_fraction))
+MaxIM67G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start67_90_W0_5$Yield2_per_fraction))
 
 LERIM67G90_0.5 <- print((MaxIM67G90_0.5M/1815)+(MaxIM67G90_0.5G/897))
 
@@ -501,8 +501,8 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99_90_W0_5 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99-90_W0.5.csv",
            sep=";")
 
-MaxIM99G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99_90_W0_5$Yield1_per_sqm))
-MaxIM99G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99_90_W0_5$Yield2_per_sqm))
+MaxIM99G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99_90_W0_5$Yield1_per_fraction))
+MaxIM99G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start99_90_W0_5$Yield2_per_fraction))
 
 LERIM99G90_0.5 <- print((MaxIM99G90_0.5M/1815)+(MaxIM99G90_0.5G/897))
 

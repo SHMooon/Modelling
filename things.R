@@ -74,7 +74,7 @@ WW0.31 <- (658/1126)+(91/138)
 wwO.40 <- (/1126)+(/138)
 =======
 ww0.4
->>>>>>> d427f6ee410b57ddc0bfa0ae82bbe8874ac8705f
+
 
 #width of crop 1 (maize) by: 30% has the best LER in Wageningen
 
