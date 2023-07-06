@@ -67,16 +67,24 @@ ww0.35 <- (704/1126)+(85/138)
 ww0.4 <- (756/1126)+(78/138)
 WW0.5 <- (850/1126)+(64/138)
 ww0.3 <- (646/1126)+(93/138)
+ww0.3
 WW0.25 <- (581/1126)+(100/138)
 ww0.29 <- (634/1126)+(94/138)
 WW0.31 <- (658/1126)+(91/138)
-<<<<<<< HEAD
-wwO.40 <- (/1126)+(/138)
-=======
-ww0.4
+
 
 
 #width of crop 1 (maize) by: 30% has the best LER in Wageningen
 
 
 
+
+###Add in Report###
+
+#run 3 years in Wageningen 
+  # which means 2 harvest for Groundnut and 3 Harvest for Maize
+  #and the LER will less than 1 year because of 2 time of Harvest (Groundnut) until end of 1989
+
+
+#M57G90 with 30% has less Maize yield per fraction than 35%... : so actually the yield maize in 35% is 
+#higher than in 30% which Geiser asked... 
