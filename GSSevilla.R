@@ -83,7 +83,7 @@ GSSevilla <- list("MaxGS10s"=MaxGS10s,"MaxGS15s"=MaxGS15s,
                      "MaxGS85s"=MaxGS85s, "MaxGS90s"=MaxGS90s,
                      "MaxGS95s"=MaxGS95s, "MaxGS100s"=MaxGS100s
                      )
-do.call(pmax, MaxGSSevilla)
+do.call(pmax, GSSevilla)
 
 
 GSS <- (1:14)

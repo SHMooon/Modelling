@@ -1304,10 +1304,10 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5 <-
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.5.csv",
            sep=";")
 
-MaxIM57G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield1_per_fraction))
-MaxIM57G90_0.5 <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield2_per_fraction))
+MaxIM57G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield1_per_fraction))
+MaxIM57G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_5$Yield2_per_fraction))
 
-LERIM57G90_0.5 <- print((MaxIM57G90_0.5/MaxM57s)+(MaxIM57G90_0.5/MaxGS90s))
+LERIM57G90_0.5 <- print((MaxIM57G90_0.5M/MaxM57s)+(MaxIM57G90_0.5G/MaxGS90s))
 
 
 # MaxIM57G90_0.6
@@ -1316,9 +1316,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6 <-
            sep=";")
 
 MaxIM57G90_0.6M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield1_per_fraction))
-MaxIGM7G90_0.6G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield2_per_fraction))
+MaxIM57G90_0.6G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_6$Yield2_per_fraction))
 
-LERIM57G90_0.6 <- print((MaxIM57G90_0.6M/MaxM57s)+(MaxIGM7G90_0.6G/MaxGS90s))
+LERIM57G90_0.6 <- print((MaxIM57G90_0.6M/MaxM57s)+(MaxIM57G90_0.6G/MaxGS90s))
 
 
 # MaxIM57G90_0.9
@@ -1393,9 +1393,9 @@ Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5 <-
            sep=";")
 
 MaxIM60G90_0.5M <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield1_per_fraction))
-MaxIG60G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield2_per_fraction))
+MaxIM60G90_0.5G <- print(max(Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start60_90_W0_5$Yield2_per_fraction))
 
-LERIM60G90_0.5 <- print((MaxIM60G90_0.5M/MaxM60s)+(MaxIG60G90_0.5G/MaxGS90s))
+LERIM60G90_0.5 <- print((MaxIM60G90_0.5M/MaxM60s)+(MaxIM60G90_0.5G/MaxGS90s))
 
 
 # MaxIM99G90_0.5
@@ -1482,4 +1482,124 @@ do.call(pmax, LERSevilla)
 Number <- (1:103)
 
 plot(LERSevilla, Number)
+
+
+
+
+
+MaxIMSevilla <- list("MaxIM10G10_0.1M"=MaxIM10G10_0.1M, "MaxIM10G10_0.2M"=MaxIM10G10_0.2M,
+                   "MaxIM10G10_0.3M"=MaxIM10G10_0.3M, "MaxIM10G10_0.4M"=MaxIM10G10_0.4M,
+                   "MaxIM10G10_0.5M"=MaxIM10G10_0.5M, "MaxIM10G50_0.1M"=MaxIM10G50_0.1M,
+                   "MaxIM10G50_0.2M"=MaxIM10G50_0.2M, "MaxIM10G50_0.3M"=MaxIM10G50_0.3M,
+                   "MaxIM10G50_0.4M"=MaxIM10G50_0.4M, "MaxIM10G50_0.5M"=MaxIM10G50_0.5M,
+                   "MaxIM15G10_0.1M"=MaxIM15G10_0.1M,"MaxIM15G10_0.2M"=MaxIM15G10_0.2M,
+                   "MaxIM15G10_0.3M"=MaxIM15G10_0.3M, "MaxIM15G10_0.4M"=MaxIM15G10_0.4M,
+                   "MaxIM15G10_0.5M"=MaxIM15G10_0.5M, "MaxIM15G15_0.1M"=MaxIM15G15_0.1M,
+                   "MaxIM15G15_0.2M"=MaxIM15G15_0.2M, "MaxIM15G15_0.3M"=MaxIM15G15_0.3M,
+                   "MaxIM15G15_0.4M"=MaxIM15G15_0.4M,  "MaxIM15G15_0.5M"=MaxIM15G15_0.5M,
+                   "MaxIM15G50_0.1M"=MaxIM15G50_0.1M,"MaxIM15G50_0.2M"=MaxIM15G50_0.2M,
+                   "MaxIM15G50_0.3M"=MaxIM15G50_0.3M, "MaxIM15G50_0.4M"=MaxIM15G50_0.4M,
+                   "MaxIM15G50_0.5M"=MaxIM15G50_0.5M, "MaxIM20G20_0.1M"=MaxIM20G20_0.1M,
+                   "MaxIM20G20_0.2M"=MaxIM20G20_0.2M, "MaxIM20G20_0.3M"=MaxIM20G20_0.3M,
+                   "MaxIM20G20_0.4M"=MaxIM20G20_0.4M, "MaxIM20G20_0.5M"=MaxIM20G20_0.5M,
+                   "MaxIM20G25_0.1M"=MaxIM20G25_0.1M, "MaxIM20G25_0.2M"=MaxIM20G25_0.2M,
+                   "MaxIM20G25_0.2M"=MaxIM20G25_0.2M, "MaxIM20G25_0.3M"=MaxIM20G25_0.3M,
+                   "MaxIM20G25_0.4M"=MaxIM20G25_0.4M, "MaxIM20G25_0.5M"=MaxIM20G25_0.5M,
+                   "MaxIM25G20_0.1M"=MaxIM25G20_0.1M, "MaxIM25G20_0.2M"=MaxIM25G20_0.2M,
+                   "MaxIM25G20_0.3M"=MaxIM25G20_0.3M, "MaxIM25G20_0.4M"=MaxIM25G20_0.4M,
+                   "MaxIM25G20_0.5M"=MaxIM25G20_0.5M, "MaxIM25G25_0.1M"=MaxIM25G25_0.1M,
+                   "MaxIM25G25_0.2M"=MaxIM25G25_0.2M, "MaxIM25G25_0.3M"=MaxIM25G25_0.3M,
+                   "MaxIM25G25_0.4M"=MaxIM25G25_0.4M, "MaxIM25G25_0.5M"=MaxIM25G25_0.5M,
+                   "MaxIM25G30_0.1M"=MaxIM25G30_0.1M, "MaxIM25G30_0.2M"=MaxIM25G30_0.2M,
+                   "MaxIM25G30_0.3M"=MaxIM25G30_0.3M, "MaxIM25G30_0.4M"=MaxIM25G30_0.4M,
+                   "MaxIM25G30_0.5M"=MaxIM25G30_0.5M, "MaxIM25G30_0.1M"=MaxIM25G30_0.1M,
+                   "MaxIM25G30_0.2M"=MaxIM25G30_0.2M, "MaxIM25G30_0.3M"=MaxIM25G30_0.3M,
+                   "MaxIM25G30_0.4M"=MaxIM25G30_0.4M, "MaxIM25G30_0.5M"=MaxIM25G30_0.5M,
+                   "MaxIM25G50_0.1M"=MaxIM25G50_0.1M, "MaxIM25G50_0.2M"=MaxIM25G50_0.2M,
+                   "MaxIM25G50_0.3M"=MaxIM25G50_0.3M, "MaxIM25G50_0.4M"=MaxIM25G50_0.4M,
+                   "MaxIM25G50_0.5M"=MaxIM25G50_0.5M, "MaxIM30G25_0.1M"=MaxIM30G25_0.1M,
+                   "MaxIM30G25_0.2M"=MaxIM30G25_0.2M, "MaxIM30G25_0.3M"=MaxIM30G25_0.3M,
+                   "MaxIM30G25_0.4M"=MaxIM30G25_0.4M, "MaxIM30G25_0.5M"=MaxIM30G25_0.5M,
+                   "MaxIM30G30_0.1M"=MaxIM30G30_0.1M, "MaxIM30G30_0.2M"=MaxIM30G30_0.2M,
+                   "MaxIM30G30_0.3M"=MaxIM30G30_0.3M, "MaxIM30G30_0.4M"=MaxIM30G30_0.4M,
+                   "MaxIM30G30_0.5M"=MaxIM30G30_0.5M, "MaxIM30G35_0.1M"=MaxIM30G35_0.1M,
+                   "MaxIM30G35_0.2M"=MaxIM30G35_0.2M, "MaxIM30G35_0.3M"=MaxIM30G35_0.3M,
+                   "MaxIM30G35_0.4M"=MaxIM30G35_0.4M, "MaxIM30G35_0.5M"=MaxIM30G35_0.5M,
+                   "MaxIM30G50_0.1M"=MaxIM30G50_0.1M, "MaxIM30G50_0.2M"=MaxIM30G50_0.2M,
+                   "MaxIM30G50_0.3M"=MaxIM30G50_0.3M, "MaxIM30G50_0.4M"=MaxIM30G50_0.4M,
+                   "MaxIM30G50_0.5M"=MaxIM30G50_0.5M, "MaxIM35G30_0.1M"=MaxIM35G30_0.1M,
+                   "MaxIM35G30_0.2M"=MaxIM35G30_0.2M, "MaxIM35G30_0.3M"=MaxIM35G30_0.3M,
+                   "MaxIM35G30_0.4M"=MaxIM35G30_0.4M, "MaxIM35G30_0.5M"=MaxIM35G30_0.5M,
+                   "MaxIM35G35_0.1M"=MaxIM35G35_0.1M, "MaxIM35G35_0.2M"=MaxIM35G35_0.2M,
+                   "MaxIM35G35_0.3M"=MaxIM35G35_0.3M, "MaxIM35G35_0.4M"=MaxIM35G35_0.4M,
+                   "MaxIM35G35_0.5M"=MaxIM35G35_0.5M, "MaxIM57G80_0.5"=MaxIM57G80_0.5,
+                   "MaxIM57G90_0.3"=MaxIM57G90_0.3, "MaxIM57G90_0.4"=MaxIM57G90_0.4,
+                   "MaxIM57G90_0.5M"=MaxIM57G90_0.5M, "MaxIM57G90_0.6M"=MaxIM57G90_0.6M,
+                   "MaxIM57G90_0.9"=MaxIM57G90_0.9, "MaxIM57G90_0.35"=MaxIM57G90_0.35,
+                   "MaxIM57G90_0.36"=MaxIM57G90_0.36, "MaxIM57G90_0.45"=MaxIM57G90_0.45,
+                   "MaxIM57G90_0.55"=MaxIM57G90_0.55, "MaxIM60G90_0.5"=MaxIM60G90_0.5,
+                   "MaxIM99G90_0.5"=MaxIM99G90_0.5
+)
+
+do.call(pmax, MaxIMSevilla)
+
+
+
+MaxIGSevilla <- list("MaxIM10G10_0.1G"=MaxIM10G10_0.1G, "MaxIM10G10_0.2G"=MaxIM10G10_0.2G,
+                     "MaxIM10G10_0.3G"=MaxIM10G10_0.3G, "MaxIM10G10_0.4G"=MaxIM10G10_0.4G,
+                     "MaxIM10G10_0.5G"=MaxIM10G10_0.5G, "MaxIM10G50_0.1G"=MaxIM10G50_0.1G,
+                     "MaxIM10G50_0.2G"=MaxIM10G50_0.2G, "MaxIM10G50_0.3G"=MaxIM10G50_0.3G,
+                     "MaxIM10G50_0.4G"=MaxIM10G50_0.4G, "MaxIM10G50_0.5G"=MaxIM10G50_0.5G,
+                     "MaxIM15G10_0.1G"=MaxIM15G10_0.1G,"MaxIM15G10_0.2G"=MaxIM15G10_0.2G,
+                     "MaxIM15G10_0.3G"=MaxIM15G10_0.3G, "MaxIM15G10_0.4G"=MaxIM15G10_0.4G,
+                     "MaxIM15G10_0.5G"=MaxIM15G10_0.5G, "MaxIM15G15_0.1G"=MaxIM15G15_0.1G,
+                     "MaxIM15G15_0.2G"=MaxIM15G15_0.2G, "MaxIM15G15_0.3G"=MaxIM15G15_0.3G,
+                     "MaxIM15G15_0.4G"=MaxIM15G15_0.4G,  "MaxIM15G15_0.5G"=MaxIM15G15_0.5G,
+                     "MaxIM15G50_0.1G"=MaxIM15G50_0.1G,"MaxIM15G50_0.2G"=MaxIM15G50_0.2G,
+                     "MaxIM15G50_0.3G"=MaxIM15G50_0.3G, "MaxIM15G50_0.4G"=MaxIM15G50_0.4G,
+                     "MaxIM15G50_0.5G"=MaxIM15G50_0.5G, "MaxIM20G20_0.1G"=MaxIM20G20_0.1G,
+                     "MaxIM20G20_0.2G"=MaxIM20G20_0.2G, "MaxIM20G20_0.3G"=MaxIM20G20_0.3G,
+                     "MaxIM20G20_0.4G"=MaxIM20G20_0.4G, "MaxIM20G20_0.5G"=MaxIM20G20_0.5G,
+                     "MaxIM20G25_0.1G"=MaxIM20G25_0.1G, "MaxIM20G25_0.2G"=MaxIM20G25_0.2G,
+                     "MaxIM20G25_0.2G"=MaxIM20G25_0.2G, "MaxIM20G25_0.3G"=MaxIM20G25_0.3G,
+                     "MaxIM20G25_0.4G"=MaxIM20G25_0.4G, "MaxIM20G25_0.5G"=MaxIM20G25_0.5G,
+                     "MaxIM25G20_0.1G"=MaxIM25G20_0.1G, "MaxIM25G20_0.2G"=MaxIM25G20_0.2G,
+                     "MaxIM25G20_0.3G"=MaxIM25G20_0.3G, "MaxIM25G20_0.4G"=MaxIM25G20_0.4G,
+                     "MaxIM25G20_0.5G"=MaxIM25G20_0.5G, "MaxIM25G25_0.1G"=MaxIM25G25_0.1G,
+                     "MaxIM25G25_0.2G"=MaxIM25G25_0.2G, "MaxIM25G25_0.3G"=MaxIM25G25_0.3G,
+                     "MaxIM25G25_0.4G"=MaxIM25G25_0.4G, "MaxIM25G25_0.5G"=MaxIM25G25_0.5G,
+                     "MaxIM25G30_0.1G"=MaxIM25G30_0.1G, "MaxIM25G30_0.2G"=MaxIM25G30_0.2G,
+                     "MaxIM25G30_0.3G"=MaxIM25G30_0.3G, "MaxIM25G30_0.4G"=MaxIM25G30_0.4G,
+                     "MaxIM25G30_0.5G"=MaxIM25G30_0.5G, "MaxIM25G30_0.1G"=MaxIM25G30_0.1G,
+                     "MaxIM25G30_0.2G"=MaxIM25G30_0.2G, "MaxIM25G30_0.3G"=MaxIM25G30_0.3G,
+                     "MaxIM25G30_0.4G"=MaxIM25G30_0.4G, "MaxIM25G30_0.5G"=MaxIM25G30_0.5G,
+                     "MaxIM25G50_0.1G"=MaxIM25G50_0.1G, "MaxIM25G50_0.2G"=MaxIM25G50_0.2G,
+                     "MaxIM25G50_0.3G"=MaxIM25G50_0.3G, "MaxIM25G50_0.4G"=MaxIM25G50_0.4G,
+                     "MaxIM25G50_0.5G"=MaxIM25G50_0.5G, "MaxIM30G25_0.1G"=MaxIM30G25_0.1G,
+                     "MaxIM30G25_0.2G"=MaxIM30G25_0.2G, "MaxIM30G25_0.3G"=MaxIM30G25_0.3G,
+                     "MaxIM30G25_0.4G"=MaxIM30G25_0.4G, "MaxIM30G25_0.5G"=MaxIM30G25_0.5G,
+                     "MaxIM30G30_0.1G"=MaxIM30G30_0.1G, "MaxIM30G30_0.2G"=MaxIM30G30_0.2G,
+                     "MaxIM30G30_0.3G"=MaxIM30G30_0.3G, "MaxIM30G30_0.4G"=MaxIM30G30_0.4G,
+                     "MaxIM30G30_0.5G"=MaxIM30G30_0.5G, "MaxIM30G35_0.1G"=MaxIM30G35_0.1G,
+                     "MaxIM30G35_0.2G"=MaxIM30G35_0.2G, "MaxIM30G35_0.3G"=MaxIM30G35_0.3G,
+                     "MaxIM30G35_0.4G"=MaxIM30G35_0.4G, "MaxIM30G35_0.5G"=MaxIM30G35_0.5G,
+                     "MaxIM30G50_0.1G"=MaxIM30G50_0.1G, "MaxIM30G50_0.2G"=MaxIM30G50_0.2G,
+                     "MaxIM30G50_0.3G"=MaxIM30G50_0.3G, "MaxIM30G50_0.4G"=MaxIM30G50_0.4G,
+                     "MaxIM30G50_0.5G"=MaxIM30G50_0.5G, "MaxIM35G30_0.1G"=MaxIM35G30_0.1G,
+                     "MaxIM35G30_0.2G"=MaxIM35G30_0.2G, "MaxIM35G30_0.3G"=MaxIM35G30_0.3G,
+                     "MaxIM35G30_0.4G"=MaxIM35G30_0.4G, "MaxIM35G30_0.5G"=MaxIM35G30_0.5G,
+                     "MaxIM35G35_0.1G"=MaxIM35G35_0.1G, "MaxIM35G35_0.2G"=MaxIM35G35_0.2G,
+                     "MaxIM35G35_0.3G"=MaxIM35G35_0.3G, "MaxIM35G35_0.4G"=MaxIM35G35_0.4G,
+                     "MaxIM35G35_0.5G"=MaxIM35G35_0.5G, "MaxIM57G80_0.5G"=MaxIM57G80_0.5G,
+                     "MaxIM57G90_0.3G"=MaxIM57G90_0.3G, "MaxIM57G90_0.4G"=MaxIM57G90_0.4G,
+                     "MaxIM57G90_0.5G"=MaxIM57G90_0.5G, "MaxIM57G90_0.6G"=MaxIM57G90_0.6G,
+                     "MaxIM57G90_0.9G"=MaxIM57G90_0.9G, "MaxIM57G90_0.35G"=MaxIM57G90_0.35G,
+                     "MaxIM57G90_0.36G"=MaxIM57G90_0.36G, "MaxIM57G90_0.45G"=MaxIM57G90_0.45G,
+                     "MaxIM57G90_0.55G"=MaxIM57G90_0.55G, "MaxIM60G90_0.5G"=MaxIM60G90_0.5G,
+                     "MaxIM99G90_0.5G"=MaxIM99G90_0.5G
+)
+
+do.call(pmax, MaxIGSevilla)
+
+
 
