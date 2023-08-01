@@ -1285,6 +1285,9 @@ MaxIM57G90_0.3G <-
 LERIM57G90_0.3 <- print((MaxIM57G90_0.3M/MaxM57s)+(MaxIM57G90_0.3G/MaxGS90s))
 
 
+
+
+
 # MaxIM57G90_0.4
 Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57_90_W0_4 <- 
   read.csv("2Intercrop-Sevilla/Lintul5_Intercropping_sevilla_maize_groundnut_daily_Start57-90_W0.4.csv",
@@ -1473,7 +1476,7 @@ LERSevilla <- list("LERIM10G10_0.1M"=LERIM10G10_0.1M, "LERIM10G10_0.2M"=LERIM10G
                    "LERIM57G90_0.9"=LERIM57G90_0.9, "LERIM57G90_0.35"=LERIM57G90_0.35,
                    "LERIM57G90_0.36"=LERIM57G90_0.36, "LERIM57G90_0.45"=LERIM57G90_0.45,
                    "LERIM57G90_0.55"=LERIM57G90_0.55, "LERIM60G90_0.5"=LERIM60G90_0.5,
-                   "LERIM99G90_0.5"=LERIM99G90_0.5
+                   "LERIM99G90_0.5"=LERIM99G90_0.5, ""
                    )
 
 do.call(pmax, LERSevilla)
